@@ -9,7 +9,7 @@ go get github.com/asimlqt/csv
 ```
 
 The callback takes 2 arguments, `n` is the index of the field starting at zero and `field` is the actual value that is to be output.
-The following example will add quotes around the column in the csv.
+The following example will add quotes around the first column in the csv.
 
 ```
 writer := csv.NewWriter(file)
